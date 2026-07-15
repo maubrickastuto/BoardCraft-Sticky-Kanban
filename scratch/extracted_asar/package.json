@@ -1,0 +1,20 @@
+{
+  "name": "boardcraft",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A minimalist kanban board",
+  "author": "BoardCraft Team",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "canvas-confetti": "^1.9.4",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "recharts": "^3.9.2",
+    "vite": "^6.2.3"
+  }
+}

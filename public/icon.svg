@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft drop shadow for the sticky note -->
+  <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
+    <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.15"/>
+  </filter>
+  
+  <!-- Subtle gradient for the sticky note paper -->
+  <linearGradient id="paperGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFF9D2" />
+    <stop offset="100%" stop-color="#FDE68A" />
+  </linearGradient>
+  
+  <!-- The Sticky Note (slightly rotated) -->
+  <g transform="translate(256, 264) rotate(-3) translate(-256, -264)">
+    <!-- Main Paper Body -->
+    <path d="M 120 120 h 272 v 250 q 0 20 -20 20 h -232 q -20 0 -20 -20 z" 
+          fill="url(#paperGradient)" filter="url(#shadow)" />
+          
+    <!-- Page Curl at bottom right -->
+    <path d="M 392 370 v 20 l -20 -20 z" fill="#D4B65B" />
+    <path d="M 372 370 q 20 0 20 20 h -20 z" fill="#FFF9D2" />
+    
+    <!-- Scribble lines -->
+    <path d="M 160 180 q 40 -10 100 0 t 80 5" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M 150 230 q 60 5 120 -5 t 80 10" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 170 280 q 30 -5 90 0 t 60 -5" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <path d="M 160 330 q 50 10 110 -5" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- The Push Pin -->
+  <g transform="translate(256, 90)">
+    <!-- Pin shadow -->
+    <ellipse cx="0" cy="50" rx="6" ry="3" fill="#000" opacity="0.2" />
+    <!-- Pin needle -->
+    <path d="M -1 20 l 2 0 l -1 30 z" fill="#9CA3AF" />
+    <path d="M 1 20 l 1 0 l -1 30 z" fill="#D1D5DB" />
+    <!-- Pin body base -->
+    <path d="M -15 20 q 15 10 30 0 v -15 q -15 5 -30 0 z" fill="#B91C1C" />
+    <!-- Pin body middle -->
+    <path d="M -8 5 v -25 h 16 v 25 z" fill="#EF4444" />
+    <!-- Pin body top -->
+    <path d="M -12 -20 q 12 -10 24 0 v 5 q -12 5 -24 0 z" fill="#F87171" />
+    <!-- Pin highlight -->
+    <ellipse cx="-4" cy="10" rx="2" ry="6" fill="#FFF" opacity="0.4" transform="rotate(15, -4, 10)" />
+  </g>
+</svg>

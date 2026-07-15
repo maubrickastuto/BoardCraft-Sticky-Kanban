@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Kanban Board",
+  "description": "A creative minimalist kanban board featuring workspace management, custom-colored sticky note cards, fluid drag-and-drop animations, due date tracking, and real-time collaboration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
