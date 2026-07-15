@@ -1,10 +1,16 @@
 <div align="center">
-  <img src="docs/logo.png" alt="BoardCraft Logo" width="200" />
+  <img src="public/icon.png" alt="BoardCraft Logo" width="200" />
   <h1>BoardCraft 📌</h1>
   <p>A minimalist, beautifully designed collaborative Kanban board with a corkboard aesthetic.</p>
 </div>
 
-![BoardCraft Screenshot](docs/screenshot.png)
+![BoardCraft UI 1](public/Screenshots/Sticky%20kanban%201.png)
+
+### Live Chat & Collaboration
+![BoardCraft Chat](public/Screenshots/Sticky%20Kanban%20chat.png)
+
+### Fluid Workspaces
+![BoardCraft UI 2](public/Screenshots/Sticky%20Kanban%202.png)
 
 It brings the tactile feel of sticky notes to a digital workspace, designed for real-time team collaboration, fluid animations, and a premium user experience.
 
